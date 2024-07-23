@@ -7,7 +7,7 @@ def print_message():
 
 
 # Schedule task to run every 5 seconds
-schedule.every(5).seconds.do(print_message)
+schedule.every(60).seconds.do(print_message)
 
 # Keep the program running to allow scheduled tasks to execute
 while True:
